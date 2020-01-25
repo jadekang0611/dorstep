@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.brand {
+  align-items: center;
+  display: flex;
+  width: auto;
+}
+
+.brand h1 {
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin-right: 1rem;
+  white-space: nowrap;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  color: #6610f2;
+}
+
+.nav-item {
+  padding-right: 50px;
+  color: #6610f2;
+  font-size: 20px;
+}
