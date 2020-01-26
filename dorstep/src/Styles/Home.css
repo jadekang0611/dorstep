@@ -2,12 +2,12 @@
   position: relative;
   margin-top: 50px;
   text-align: center;
-  color: #6610f2;
+  color: #5836e5;
 }
 
 .content {
   position: absolute;
-  top: 10%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -20,8 +20,8 @@
 .content-two {
   font-size: 24px;
 }
-img {
-  padding-top: 80px;
+.main-img {
+  padding-top: 120px;
 }
 
 button {
@@ -29,8 +29,8 @@ button {
   padding: 10px 25px 10px 25px;
   font-size: 32px;
   border-radius: 30px 30px 30px 0px;
-  color: #6610f2;
-  border: 1px solid #6610f2;
+  color: #5836e5;
+  border: 1px solid #5836e5;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   flex-grow: 0;
@@ -38,6 +38,13 @@ button {
 }
 
 button:hover {
-  background-color: #6610f2; /* Green */
+  background-color: #5836e5; /* Green */
   color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
 }
