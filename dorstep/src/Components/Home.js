@@ -1,14 +1,34 @@
 import React from 'react';
 import background from '../background1.svg';
 import '../Styles/Home.css';
-import { Link, Route } from 'react-router-dom';
-import Questions from './Questions';
+import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Home() {
   return (
-    <div className="container">
+    <div className="home-container">
       <div className="content">
-        <h1 className="content-one">Search.Discover.Live</h1>
+        <Container>
+          <Row>
+            <Col>
+              <h1 xs={12} md={4} className="content-one">
+                Search.
+              </h1>
+            </Col>
+            <Col>
+              <h1 xs={12} md={4} className="content-one">
+                Discover.
+              </h1>
+            </Col>
+            <Col>
+              <h1 xs={12} md={4} className="content-one">
+                Live.
+              </h1>
+            </Col>
+          </Row>
+        </Container>
         <p className="content-two">We'll get your doorstep to Korea easy!</p>
 
         <Link to="/questions">

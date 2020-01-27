@@ -1,25 +1,4 @@
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2rem 2rem;
-}
-
 .brand {
-  align-items: center;
-  display: flex;
-  width: auto;
-  color: #6610f2;
-}
-
-.brand img {
-  height: 3rem;
-  margin: 0 1.25rem 0 0;
-  width: auto;
-  padding: 0;
-}
-
-.brand h1 {
   font-weight: 600;
   letter-spacing: 2px;
   margin-right: 1rem;
@@ -39,4 +18,18 @@ header {
   padding-left: 50px;
   color: #6610f2;
   font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #6610f2;
+}
+
+.mr-auto {
+  margin-right: 0 !important;
+  margin-left: auto;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

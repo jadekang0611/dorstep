@@ -1,49 +1,70 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-// import '../Styles/Question.css';
 import QuestionCard from '../../Widgets/QuestionCard';
 import '../../Styles/Question.css';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import CardDeck from 'react-bootstrap/CardDeck';
 
 function Lifestyle() {
   return (
     <div>
-      <Container className="question-box">
-        <Row>
-          <Col>
-            <h1 className="question-main">What do you like to do?</h1>
-          </Col>
-        </Row>
-        <Row className="explanation">
-          <Col>
-            <p>
-              We'll use this to recommend the best place for you to live in
-              Korea.
-            </p>
-          </Col>
-        </Row>
-      </Container>
-      <Container className="selection-box">
-        <Row>
-          <Col xs={12} md={4}>
-            <Link to="/questions/cities">
-              <QuestionCard />
-            </Link>
-          </Col>
-          <Col xs={12} md={4}>
-            <Link to="/questions/cities">
-              <QuestionCard />
-            </Link>
-          </Col>
-          <Col xs={12} md={4}>
-            <Link to="/questions/cities">
-              <QuestionCard />
-            </Link>
-          </Col>
-        </Row>
-      </Container>
+      <section className="section">
+        <h1 className="question-main">What do you like to do?</h1>
+
+        <p className="explanation">
+          We'll use this to recommend the best place for you to live in Korea.
+        </p>
+      </section>
+
+      <CardDeck>
+        <Link to="/questions/cities">
+          <QuestionCard
+            image={'https://via.placeholder.com/250'}
+            title={'Lifestyle One'}
+            description={'This is the lifestyle.'}
+          />
+        </Link>
+
+        <Link to="/questions/cities">
+          <QuestionCard
+            image={'https://via.placeholder.com/250'}
+            title={'Lifestyle One'}
+            description={'This is the lifestyle.'}
+          />
+        </Link>
+
+        <Link to="/questions/cities">
+          <QuestionCard
+            image={'https://via.placeholder.com/250'}
+            title={'Lifestyle One'}
+            description={'This is the lifestyle.'}
+          />
+        </Link>
+      </CardDeck>
+      <CardDeck>
+        <Link to="/questions/cities">
+          <QuestionCard
+            image={'https://via.placeholder.com/250'}
+            title={'Lifestyle One'}
+            description={'This is the lifestyle.'}
+          />
+        </Link>
+
+        <Link to="/questions/cities">
+          <QuestionCard
+            image={'https://via.placeholder.com/250'}
+            title={'Lifestyle One'}
+            description={'This is the lifestyle.'}
+          />
+        </Link>
+
+        <Link to="/questions/cities">
+          <QuestionCard
+            image={'https://via.placeholder.com/250'}
+            title={'Lifestyle One'}
+            description={'This is the lifestyle.'}
+          />
+        </Link>
+      </CardDeck>
     </div>
   );
 }

@@ -1,19 +1,18 @@
 import React from 'react';
-import Figure from 'react-bootstrap/Figure';
+import Card from 'react-bootstrap/Card';
 
 class QuestionCard extends React.Component {
   render() {
     return (
-      <div>
-        <Figure>
-          <Figure.Image
-            width={250}
-            height={250}
-            alt="171x180"
-            src="https://via.placeholder.com/250"
-          />
-        </Figure>
-      </div>
+      <>
+        <Card>
+          <Card.Img variant="top" src={this.props.image} />
+          <Card.Body>
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Text>{this.props.description}</Card.Text>
+          </Card.Body>
+        </Card>
+      </>
     );
   }
 }
