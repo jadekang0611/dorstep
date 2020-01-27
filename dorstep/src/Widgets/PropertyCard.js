@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import '../Styles/PropertyCard.css';
 
 function MydModalWithGrid(props) {
   return (
@@ -55,7 +56,7 @@ function PropertyCard(props) {
   return (
     <>
       <MydModalWithGrid show={modalShow} onHide={() => setModalShow(false)} />
-      <Card>
+      <Card className="property-card">
         <Card.Img
           variant="top"
           src={props.image}
