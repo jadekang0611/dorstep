@@ -5,7 +5,7 @@ import '../../Styles/Question.css';
 import { Link } from 'react-router-dom';
 
 function Payment(props) {
-  console.log('City: ' + props.location.state.city);
+
   return (
     <div>
       <div>
@@ -21,7 +21,7 @@ function Payment(props) {
           <Link to={{
             pathname: "/questions/properties",
             state:{
-              city: props.location.state.city,
+              district: props.location.state.district,
               payment: 'Lump-sum'
             }
             }}>
@@ -35,7 +35,7 @@ function Payment(props) {
           <Link to={{
             pathname: "/questions/properties",
             state:{
-              city: props.location.state.city,
+              district: props.location.state.district,
               payment: "Monthly"
             }
             }}>

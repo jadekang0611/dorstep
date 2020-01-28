@@ -8,18 +8,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function ShowProperties(props) {
-  console.log(properties);
-  console.log(props.location.state.payment);
-  console.log(props.location.state.city)
-
-//   let results = properties.filter(function(item){
-//       if (item.city === props.location.state.city && item.paymentType === props.location.state.payment)
-//       {
-//           return true;
-//       }
-//       return false;
-//   });
-
+  let results = properties.filter(function(item) {
+    if (
+      item.district === props.location.state.district &&
+      item.paymentType === props.location.state.payment
+    ) {
+      return true;
+    }
+    return false;
+  });
 
   return (
     <div>
@@ -28,7 +25,7 @@ function ShowProperties(props) {
       </section>
       <Container>
         <Row>
-          {properties.map(property => {
+          {results.map(property => {
             return (
               <Col xs={6} md={4} lg={3} key={property.id}>
                 <PropertyCard
@@ -39,7 +36,7 @@ function ShowProperties(props) {
                   bed={property.noOfBed}
                   bath={property.noOfBath}
                   size={property.size}
-                  address={property.street + `, ` + property.city}
+                  address={property.district + `, ` + property.city}
                   deposit={property.deposit}
                 />
               </Col>

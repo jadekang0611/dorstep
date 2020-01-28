@@ -17,56 +17,63 @@ function Cities() {
         </section>
 
         <CardDeck>
-          <Link to={{
-            pathname: "/questions/payment",
-            state: {
-              city: 'Banghwa-dong'
-            }
-            }}>
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Gangseo-gu'
+              }
+            }}
+          >
             <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Lifestyle One'}
+              image={'../../images/gangseo.jpg'}
+              title={'Gangseo-gu'}
               description={'This is the lifestyle.'}
             />
           </Link>
 
-          <Link to="/questions/payment">
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Gangnam-gu'
+              }
+            }}
+          >
             <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Lifestyle One'}
-              description={'This is the lifestyle.'}
-            />
-          </Link>
-
-          <Link to="/questions/payment">
-            <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Lifestyle One'}
+              image={'../../images/gangnam.jpg'}
+              title={'Gangnam-gu'}
               description={'This is the lifestyle.'}
             />
           </Link>
         </CardDeck>
         <CardDeck>
-          <Link to="/questions/payment">
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Mapo-gu'
+              }
+            }}
+          >
             <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Lifestyle One'}
+              image={'../../images/mapo.jpg'}
+              title={'Mapo-gu'}
               description={'This is the lifestyle.'}
             />
           </Link>
 
-          <Link to="/questions/payment">
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Yongsan-gu'
+              }
+            }}
+          >
             <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Lifestyle One'}
-              description={'This is the lifestyle.'}
-            />
-          </Link>
-
-          <Link to="/questions/payment">
-            <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Lifestyle One'}
+              image={'../../images/yongsan.jpeg'}
+              title={'Yongsan-gu'}
               description={'This is the lifestyle.'}
             />
           </Link>

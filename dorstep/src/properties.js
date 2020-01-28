@@ -1,7 +1,7 @@
 export const properties = [
          {
            id: 1,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/property1.a.png',
@@ -19,7 +19,7 @@ export const properties = [
          },
          {
            id: 2,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/property2a.png',
@@ -38,7 +38,7 @@ export const properties = [
          },
          {
            id: 3,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/3a.png',
@@ -56,7 +56,7 @@ export const properties = [
          },
          {
            id: 4,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/4a.png',
@@ -75,7 +75,7 @@ export const properties = [
          },
          {
            id: 5,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/5a.png',
@@ -93,7 +93,7 @@ export const properties = [
          },
          {
            id: 6,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/6a.png',
@@ -114,7 +114,7 @@ export const properties = [
          },
          {
            id: 7,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/7a.png',
@@ -134,7 +134,7 @@ export const properties = [
          },
          {
            id: 8,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/8a.png',
@@ -152,7 +152,7 @@ export const properties = [
          },
          {
            id: 9,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/9a.png',
@@ -170,7 +170,7 @@ export const properties = [
          },
          {
            id: 10,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/10a.png',
@@ -190,7 +190,7 @@ export const properties = [
          },
          {
            id: 11,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/11a.png',
@@ -207,7 +207,7 @@ export const properties = [
          },
          {
            id: 12,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/12a.png',
@@ -226,7 +226,7 @@ export const properties = [
          },
          {
            id: 13,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Banghwa-dong',
            images: [
              '../images/13a.png',
@@ -245,7 +245,7 @@ export const properties = [
          },
          {
            id: 14,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Gayang-dong',
            images: [
              '../images/14a.png',
@@ -264,7 +264,7 @@ export const properties = [
          },
          {
            id: 15,
-           street: 'Yangcheon-gu',
+           district: 'Yangcheon-gu',
            city: 'Mokdong',
            images: [
              '../images/15a.png',
@@ -281,7 +281,7 @@ export const properties = [
          },
          {
            id: 16,
-           street: 'Yangcheon-gu',
+           district: 'Yangcheon-gu',
            city: 'Mokdong',
            images: [
              '../images/16a.png',
@@ -298,7 +298,7 @@ export const properties = [
          },
          {
            id: 17,
-           street: 'Yangcheon-gu',
+           district: 'Yangcheon-gu',
            city: 'Mokdong',
            images: [
              '../images/17a.png',
@@ -315,7 +315,7 @@ export const properties = [
          },
          {
            id: 18,
-           street: 'Yangcheon-gu',
+           district: 'Yangcheon-gu',
            city: 'Mokdong',
            images: [
              '../images/18a.png',
@@ -332,7 +332,7 @@ export const properties = [
          },
          {
            id: 19,
-           street: 'Yangcheon-gu',
+           district: 'Yangcheon-gu',
            city: 'Mokdong',
            images: [
              '../images/19a.png',
@@ -349,7 +349,7 @@ export const properties = [
          },
          {
            id: 20,
-           street: 'Yeongdeungpo-gu',
+           district: 'Yeongdeungpo-gu',
            city: 'Yeouido',
            images: [
              '../images/20a.png',
@@ -366,7 +366,7 @@ export const properties = [
          },
          {
            id: 21,
-           street: 'Yeongdeungpo-gu',
+           district: 'Yeongdeungpo-gu',
            city: 'Yeouido',
            images: [
              '../images/21a.png',
@@ -383,7 +383,7 @@ export const properties = [
          },
          {
            id: 22,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Deungchon-dong',
            images: [
              '../images/22a.png',
@@ -400,7 +400,7 @@ export const properties = [
          },
          {
            id: 23,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Deungchon-dong',
            images: [
              '../images/23a.png',
@@ -417,7 +417,7 @@ export const properties = [
          },
          {
            id: 24,
-           street: 'Gangseo-gu',
+           district: 'Gangseo-gu',
            city: 'Deungchon-dong',
            images: [
              '../images/24a.png',
@@ -434,7 +434,7 @@ export const properties = [
          },
          {
            id: 25,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/25a.png',
@@ -451,7 +451,7 @@ export const properties = [
          },
          {
            id: 26,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/26a.png',
@@ -468,7 +468,7 @@ export const properties = [
          },
          {
            id: 27,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/27a.png',
@@ -485,7 +485,7 @@ export const properties = [
          },
          {
            id: 28,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/28a.png',
@@ -502,7 +502,7 @@ export const properties = [
          },
          {
            id: 29,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/29a.png',
@@ -519,7 +519,7 @@ export const properties = [
          },
          {
            id: 30,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/30a.png',
@@ -536,7 +536,7 @@ export const properties = [
          },
          {
            id: 31,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/31a.png',
@@ -553,7 +553,7 @@ export const properties = [
          },
          {
            id: 32,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/32a.png',
@@ -570,7 +570,7 @@ export const properties = [
          },
          {
            id: 33,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/33a.png',
@@ -587,7 +587,7 @@ export const properties = [
          },
          {
            id: 34,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/34a.png',
@@ -604,7 +604,7 @@ export const properties = [
          },
          {
            id: 35,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/35a.png',
@@ -621,7 +621,7 @@ export const properties = [
          },
          {
            id: 36,
-           street: 'Gangnam-gu',
+           district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
            images: [
              '../images/36a.png',
@@ -638,7 +638,7 @@ export const properties = [
          },
          {
            id: 37,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Seogyo-dong',
            images: [
              '../images/37a.png',
@@ -655,7 +655,7 @@ export const properties = [
          },
          {
            id: 38,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Seogyo-dong',
            images: [
              '../images/38a.png',
@@ -672,7 +672,7 @@ export const properties = [
          },
          {
            id: 39,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Seogyo-dong',
            images: [
              '../images/39a.png',
@@ -689,7 +689,7 @@ export const properties = [
          },
          {
            id: 40,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Gongdeok-dong',
            images: [
              '../images/40a.png',
@@ -706,7 +706,7 @@ export const properties = [
          },
          {
            id: 41,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Dohwa-dong',
            images: ['../images/41a.png'],
            noOfBed: 0,
@@ -719,7 +719,7 @@ export const properties = [
          },
          {
            id: 42,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Dohwa-dong',
            images: ['../images/42a.png', '../images/42b.png'],
            noOfBed: 0,
@@ -732,7 +732,7 @@ export const properties = [
          },
          {
            id: 43,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Mapo-dong',
            images: ['../images/43a.png', '../images/43b.png'],
            noOfBed: 1,
@@ -745,7 +745,7 @@ export const properties = [
          },
          {
            id: 44,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Dohwa-dong',
            images: [
              '../images/44a.png',
@@ -762,7 +762,7 @@ export const properties = [
          },
          {
            id: 45,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Sangsoo-dong',
            images: [
              '../images/45a.png',
@@ -779,7 +779,7 @@ export const properties = [
          },
          {
            id: 46,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Sangsoo-dong',
            images: [
              '../images/46a.png',
@@ -796,7 +796,7 @@ export const properties = [
          },
          {
            id: 47,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Sangsoo-dong',
            images: [
              '../images/47a.png',
@@ -813,7 +813,7 @@ export const properties = [
          },
          {
            id: 48,
-           street: 'Mapo-gu',
+           district: 'Mapo-gu',
            city: 'Sangsoo-dong',
            images: ['../images/48a.png', '../images/48b.png'],
            noOfBed: 0,
@@ -826,7 +826,7 @@ export const properties = [
          },
          {
            id: 49,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Hangang-ro',
            images: [
              '../images/49a.png',
@@ -843,7 +843,7 @@ export const properties = [
          },
          {
            id: 50,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Hangang-ro',
            images: [
              '../images/50a.png',
@@ -860,7 +860,7 @@ export const properties = [
          },
          {
            id: 51,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Hangang-ro',
            images: [
              '../images/51a.png',
@@ -877,7 +877,7 @@ export const properties = [
          },
          {
            id: 52,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Hangang-ro',
            images: [
              '../images/50a.png',
@@ -894,7 +894,7 @@ export const properties = [
          },
          {
            id: 53,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Hangang-ro',
            images: [
              '../images/50a.png',
@@ -911,7 +911,7 @@ export const properties = [
          },
          {
            id: 54,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Hangang-ro',
            images: [
              '../images/54a.png',
@@ -928,7 +928,7 @@ export const properties = [
          },
          {
            id: 55,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/55a.png',
@@ -945,7 +945,7 @@ export const properties = [
          },
          {
            id: 56,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/56a.png',
@@ -962,7 +962,7 @@ export const properties = [
          },
          {
            id: 57,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/57a.png',
@@ -979,7 +979,7 @@ export const properties = [
          },
          {
            id: 58,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/58a.png',
@@ -996,7 +996,7 @@ export const properties = [
          },
          {
            id: 59,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/59a.png',
@@ -1013,7 +1013,7 @@ export const properties = [
          },
          {
            id: 60,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/60a.png',
@@ -1030,7 +1030,7 @@ export const properties = [
          },
          {
            id: 61,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/61a.png',
@@ -1047,7 +1047,7 @@ export const properties = [
          },
          {
            id: 62,
-           street: 'Yongsan-gu',
+           district: 'Yongsan-gu',
            city: 'Itaewon-dong',
            images: [
              '../images/62a.png',
