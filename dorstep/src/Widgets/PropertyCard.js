@@ -68,12 +68,17 @@ function MydModalWithGrid(props) {
             <Col xs={12} md={6}>
               <Container>
                 <Row>
-                  <h1>This is the price</h1>
-                  <h3>This is the property name</h3>
+                  <h2>{props.amount}</h2>
                 </Row>
               </Container>
               <Container>
                 <Row>
+                  <Col>
+                    <Badge pill variant="light">
+                      <FontAwesomeIcon icon="tag" />
+                      {props.paymentType}
+                    </Badge>{' '}
+                  </Col>
                   <Col>
                     <Badge pill variant="light">
                       <FontAwesomeIcon icon="bed" />
@@ -194,6 +199,8 @@ function PropertyCard(props) {
         bath={props.bath}
         size={props.size}
         address={props.address}
+        deposit={props.deposit}
+        paymentType={props.paymentType}
       />
       <Card className="property-card">
         <Card.Img

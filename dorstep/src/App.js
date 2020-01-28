@@ -10,9 +10,10 @@ import {
   faBed,
   faBath,
   faVectorSquare,
-  faMapMarkerAlt
+  faMapMarkerAlt,
+  faTag
 } from '@fortawesome/free-solid-svg-icons';
-library.add(fab, faBed, faBath, faVectorSquare, faMapMarkerAlt);
+library.add(fab, faBed, faBath, faVectorSquare, faMapMarkerAlt, faTag);
 class App extends React.Component {
   constructor(props) {
     super(props);
