@@ -15,7 +15,9 @@ export const properties = [
            amount: '210,000,000',
            size: '52.89\u33A1',
            deposit: 0,
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 2,
@@ -34,7 +36,9 @@ export const properties = [
            deposit: '25,000,000',
            amount: '500,000',
            size: '56.19\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 3,
@@ -52,7 +56,9 @@ export const properties = [
            deposit: 0,
            amount: '80,000,000',
            size: '16.52\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 4,
@@ -71,7 +77,9 @@ export const properties = [
            deposit: 0,
            amount: '220,000,000',
            size: '66.11\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 5,
@@ -89,7 +97,9 @@ export const properties = [
            deposit: '5,000,000',
            amount: '350,000',
            size: '26.44\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 6,
@@ -110,7 +120,9 @@ export const properties = [
            deposit: 0,
            amount: '210,000,000',
            size: '76.03\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 7,
@@ -130,7 +142,9 @@ export const properties = [
            deposit: 0,
            amount: '150,000,000',
            size: '49.58\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 8,
@@ -148,7 +162,9 @@ export const properties = [
            deposit: '2,000,000',
            amount: '370,000',
            size: '20\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 9,
@@ -166,7 +182,9 @@ export const properties = [
            deposit: '5,000,000',
            amount: '350,000',
            size: '23.1\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 10,
@@ -186,7 +204,9 @@ export const properties = [
            deposit: 0,
            amount: '155,000,000',
            size: '46.28\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 11,
@@ -203,7 +223,9 @@ export const properties = [
            deposit: 0,
            amount: '262,000,000',
            size: '66.11\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 12,
@@ -222,7 +244,9 @@ export const properties = [
            deposit: '3,000,000',
            amount: '320,000',
            size: '16.5\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 13,
@@ -241,7 +265,9 @@ export const properties = [
            deposit: 0,
            amount: '200,000,000',
            size: '42.97\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 14,
@@ -260,7 +286,9 @@ export const properties = [
            deposit: '30,000,000',
            amount: '450,000',
            size: '14.33\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 15,
@@ -396,7 +424,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '550,000',
            size: '33.72\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 23,
@@ -413,7 +443,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '600,000',
            size: '28.45\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 24,
@@ -430,7 +462,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '950,000',
            size: '48.53\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
            id: 25,
@@ -447,7 +481,9 @@ export const properties = [
            deposit: '1,800,000',
            amount: '1,800,000',
            size: '49.52\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 26,
@@ -464,7 +500,9 @@ export const properties = [
            deposit: '1,000,000',
            amount: '1,000,000',
            size: '24.61\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 27,
@@ -481,7 +519,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '1,200,000',
            size: '38.8\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 28,
@@ -498,7 +538,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '850,000',
            size: '26.37\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 29,
@@ -515,7 +557,9 @@ export const properties = [
            deposit: '1,000,000',
            amount: '1,000,000',
            size: '25.47\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 30,
@@ -532,7 +576,9 @@ export const properties = [
            deposit: '1,000,000',
            amount: '900,000',
            size: '29.42\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 31,
@@ -549,7 +595,9 @@ export const properties = [
            deposit: '1,000,000',
            amount: '900,000',
            size: '24.73\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 32,
@@ -566,7 +614,9 @@ export const properties = [
            deposit: '100,000,000',
            amount: '5,000,000',
            size: '153.32\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 33,
@@ -583,7 +633,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '700,000',
            size: '23.37\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 34,
@@ -600,7 +652,9 @@ export const properties = [
            deposit: '20,000,000',
            amount: '1,800,000',
            size: '48.9\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 35,
@@ -617,7 +671,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '900,000',
            size: '54\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 36,
@@ -634,7 +690,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '800,000',
            size: '29.86\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
            id: 37,
@@ -651,7 +709,9 @@ export const properties = [
            deposit: 0,
            amount: '240,000,000',
            size: '18.86\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 38,
@@ -668,7 +728,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '550,000',
            size: '22.11\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 39,
@@ -685,7 +747,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '800,000',
            size: '31.41\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 40,
@@ -702,7 +766,9 @@ export const properties = [
            deposit: 0,
            amount: '265,000,000',
            size: '25.31\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 41,
@@ -715,7 +781,9 @@ export const properties = [
            deposit: '1,000,000',
            amount: '600,000',
            size: '23.62\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 42,
@@ -728,7 +796,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '750,000',
            size: '26.25\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 43,
@@ -741,7 +811,9 @@ export const properties = [
            deposit: '5,000,000',
            amount: '400,000',
            size: '23.76\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 44,
@@ -758,7 +830,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '850,000',
            size: '33.93\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 45,
@@ -775,7 +849,9 @@ export const properties = [
            deposit: '150,000,000',
            amount: '140,000',
            size: '28.77\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 46,
@@ -792,7 +868,9 @@ export const properties = [
            deposit: '20,000,000',
            amount: '1,250,000',
            size: '108.31\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 47,
@@ -809,7 +887,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '850,000',
            size: '33.66\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 48,
@@ -822,7 +902,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '700,000',
            size: '29.25\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
            id: 49,
@@ -839,7 +921,9 @@ export const properties = [
            deposit: '20,000,000',
            amount: '1,650,000',
            size: '49.98\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 50,
@@ -856,7 +940,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '750,000',
            size: '32.15\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 51,
@@ -873,7 +959,9 @@ export const properties = [
            deposit: '60,000,000',
            amount: '550,000',
            size: '29.54\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 52,
@@ -890,7 +978,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '750,000',
            size: '29.54\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 53,
@@ -907,7 +997,9 @@ export const properties = [
            deposit: '60,000,000',
            amount: '550,000',
            size: '29.54\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 54,
@@ -924,7 +1016,9 @@ export const properties = [
            deposit: '2,000,000',
            amount: '700,000',
            size: '32.15\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 55,
@@ -941,7 +1035,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '800,000',
            size: '36.36\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 56,
@@ -958,7 +1054,9 @@ export const properties = [
            deposit: 0,
            amount: '900,000,000',
            size: '178.51\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 57,
@@ -975,7 +1073,9 @@ export const properties = [
            deposit: 0,
            amount: '350,000,000',
            size: '66.11\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 58,
@@ -992,7 +1092,9 @@ export const properties = [
            deposit: '40,000,000',
            amount: '1,000,000',
            size: '49.58\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 59,
@@ -1009,7 +1111,9 @@ export const properties = [
            deposit: '10,000,000',
            amount: '1,000,000',
            size: '59.5\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 60,
@@ -1026,7 +1130,9 @@ export const properties = [
            deposit: '30,000,000',
            amount: '1,350,000',
            size: '35.7\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 61,
@@ -1043,7 +1149,9 @@ export const properties = [
            deposit: 0,
            amount: '430,000,000',
            size: '59.92\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
            id: 62,
@@ -1060,6 +1168,8 @@ export const properties = [
            deposit: '10,000,000',
            amount: '800,000',
            size: '36.36\u33A1',
-           lifestyle: 'party'
+           lifestyle: 'party',
+           about:
+             'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          }
        ];

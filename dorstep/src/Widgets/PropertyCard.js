@@ -160,13 +160,7 @@ function MydModalWithGrid(props) {
                   <h2>About the location</h2>
 
                   <Container>
-                    <Row>
-                      In deserunt nulla occaecat pariatur ex amet ex mollit
-                      veniam et cillum eu. Ullamco veniam commodo non eu id
-                      dolore. Aliquip Lorem excepteur nostrud in do. Nostrud
-                      mollit et ut nisi esse ex voluptate. Do adipisicing magna
-                      culpa qui.
-                    </Row>
+                    <Row>{props.aboutTheDistrict}</Row>
                   </Container>
                 </Row>
               </Container>
@@ -201,6 +195,7 @@ function PropertyCard(props) {
         address={props.address}
         deposit={props.deposit}
         paymentType={props.paymentType}
+        aboutTheDistrict={props.aboutTheDistrict}
       />
       <Card className="property-card">
         <Card.Img

@@ -38,6 +38,7 @@ function ShowProperties(props) {
                   size={property.size}
                   address={property.district + `, ` + property.city}
                   deposit={property.deposit}
+                  aboutTheDistrict={property.about}
                 />
               </Col>
             );
