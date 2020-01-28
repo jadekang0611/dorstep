@@ -9,8 +9,10 @@ import '../Styles/PropertyCard.css';
 import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
 import Badge from 'react-bootstrap/Badge';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function MydModalWithGrid(props) {
+  console.log('modal: ' + props.image);
   return (
     <Modal
       {...props}
@@ -25,64 +27,17 @@ function MydModalWithGrid(props) {
             <Col xs={12} md={6}>
               <Row>
                 <Carousel>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src="https://via.placeholder.com/500"
-                      alt="First slide"
-                    />
-                    <Carousel.Caption>
-                      <h3>First slide label</h3>
-                      <p>
-                        Nulla vitae elit libero, a pharetra augue mollis
-                        interdum.
-                      </p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src="https://via.placeholder.com/500"
-                      alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                      <h3>Second slide label</h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src="https://via.placeholder.com/500"
-                      alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                      <h3>Third slide label</h3>
-                      <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl
-                        consectetur.
-                      </p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src="https://via.placeholder.com/500"
-                      alt="Fourth slide"
-                    />
-
-                    <Carousel.Caption>
-                      <h3>Fourth slide label</h3>
-                      <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl
-                        consectetur.
-                      </p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
+                  {props.images.map(image => {
+                    return (
+                      <Carousel.Item>
+                        <img
+                          className="d-block w-100"
+                          src={image}
+                          alt="First slide"
+                        />
+                      </Carousel.Item>
+                    );
+                  })}
                 </Carousel>
               </Row>
               <br></br>
@@ -121,24 +76,30 @@ function MydModalWithGrid(props) {
                 <Row>
                   <Col>
                     <Badge pill variant="light">
-                      bed
+                      <FontAwesomeIcon icon="bed" />
+                      {props.bed}
                     </Badge>{' '}
                   </Col>
                   <Col>
                     <Badge pill variant="light">
-                      bath
+                      <FontAwesomeIcon icon="bath" />
+                      {props.bath}
                     </Badge>{' '}
                   </Col>
                   <Col>
                     <Badge pill variant="light">
-                      size
+                      <FontAwesomeIcon icon="vector-square" />
+                      {props.size}
                     </Badge>{' '}
                   </Col>
                 </Row>
               </Container>
               <Container>
                 <Row>
-                  <p>Douglas, Irvine, California 92612</p>
+                  <p>
+                    <FontAwesomeIcon icon="map-marker-alt" />
+                    {props.address}
+                  </p>
                 </Row>
               </Container>
 
@@ -220,9 +181,20 @@ function MydModalWithGrid(props) {
 
 function PropertyCard(props) {
   const [modalShow, setModalShow] = useState(false);
+  console.log(props.image);
   return (
     <>
-      <MydModalWithGrid show={modalShow} onHide={() => setModalShow(false)} />
+      <MydModalWithGrid
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        image={props.image}
+        images={props.images}
+        amount={props.amount}
+        bed={props.bed}
+        bath={props.bath}
+        size={props.size}
+        address={props.address}
+      />
       <Card className="property-card">
         <Card.Img
           variant="top"
@@ -230,8 +202,28 @@ function PropertyCard(props) {
           onClick={() => setModalShow(true)}
         />
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
-          <Card.Text>{props.details}</Card.Text>
+          <Card.Title>{props.amount}</Card.Title>
+          <Card.Text>{props.paymentType}</Card.Text>
+          <Container>
+            <Row>
+              <Col>
+                <FontAwesomeIcon icon="bed" />
+                {props.bed}
+              </Col>
+              <Col>
+                <FontAwesomeIcon icon="bath" />
+                {props.bath}
+              </Col>
+              <Col>
+                <FontAwesomeIcon icon="vector-square" />
+                {props.size}
+              </Col>
+            </Row>
+          </Container>
+          <Row>
+            <FontAwesomeIcon icon="map-marker-alt" />
+            <Card.Text>{props.address}</Card.Text>
+          </Row>
         </Card.Body>
       </Card>
     </>

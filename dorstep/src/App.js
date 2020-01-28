@@ -4,8 +4,15 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Link, Switch } from 'react-router-dom';
 import Main from './Components/Main';
-
-
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import {
+  faBed,
+  faBath,
+  faVectorSquare,
+  faMapMarkerAlt
+} from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faBed, faBath, faVectorSquare, faMapMarkerAlt);
 class App extends React.Component {
   constructor(props) {
     super(props);

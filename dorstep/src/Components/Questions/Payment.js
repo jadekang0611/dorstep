@@ -4,7 +4,8 @@ import QuestionCard from '../../Widgets/QuestionCard';
 import '../../Styles/Question.css';
 import { Link } from 'react-router-dom';
 
-function Payment() {
+function Payment(props) {
+  console.log('City: ' + props.location.state.city);
   return (
     <div>
       <div>
@@ -17,7 +18,13 @@ function Payment() {
         </section>
 
         <CardDeck>
-          <Link to="/questions/properties">
+          <Link to={{
+            pathname: "/questions/properties",
+            state:{
+              city: props.location.state.city,
+              payment: 'Lump-sum'
+            }
+            }}>
             <QuestionCard
               image={'https://via.placeholder.com/250'}
               title={'Payment One'}
@@ -25,7 +32,13 @@ function Payment() {
             />
           </Link>
 
-          <Link to="/questions/properties">
+          <Link to={{
+            pathname: "/questions/properties",
+            state:{
+              city: props.location.state.city,
+              payment: "Monthly"
+            }
+            }}>
             <QuestionCard
               image={'https://via.placeholder.com/250'}
               title={'Payment Two'}

@@ -17,7 +17,12 @@ function Cities() {
         </section>
 
         <CardDeck>
-          <Link to="/questions/payment">
+          <Link to={{
+            pathname: "/questions/payment",
+            state: {
+              city: 'Banghwa-dong'
+            }
+            }}>
             <QuestionCard
               image={'https://via.placeholder.com/250'}
               title={'Lifestyle One'}
