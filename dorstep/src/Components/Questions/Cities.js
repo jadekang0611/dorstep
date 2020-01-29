@@ -9,7 +9,7 @@ function Cities() {
     <div>
       <div>
         <section className="section">
-          <h1 className="question-main">Where do you like to live?</h1>
+          <h1 className="question-main">What do you enjoy most?</h1>
 
           <p className="explanation">
             We'll use this to recommend the best place for you to live in Korea.
@@ -26,9 +26,8 @@ function Cities() {
             }}
           >
             <QuestionCard
-              image={'../../images/gangseo.jpg'}
-              title={'Gangseo-gu'}
-              description={'This is the lifestyle.'}
+              image={'../../images/active.png'}
+              title={'Activities'}
             />
           </Link>
 
@@ -41,13 +40,11 @@ function Cities() {
             }}
           >
             <QuestionCard
-              image={'../../images/gangnam.jpg'}
-              title={'Gangnam-gu'}
-              description={'This is the lifestyle.'}
+              image={'../../images/adventure.png'}
+              title={'Adventure'}
             />
           </Link>
-        </CardDeck>
-        <CardDeck>
+
           <Link
             to={{
               pathname: '/questions/payment',
@@ -57,9 +54,8 @@ function Cities() {
             }}
           >
             <QuestionCard
-              image={'../../images/mapo.jpg'}
-              title={'Mapo-gu'}
-              description={'This is the lifestyle.'}
+              image={'../../images/calm.png'}
+              title={'Tranquility'}
             />
           </Link>
 
@@ -72,10 +68,57 @@ function Cities() {
             }}
           >
             <QuestionCard
-              image={'../../images/yongsan.jpeg'}
-              title={'Yongsan-gu'}
-              description={'This is the lifestyle.'}
+              image={'../../images/education.png'}
+              title={'Education'}
             />
+          </Link>
+        </CardDeck>
+        <CardDeck>
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Yongsan-gu'
+              }
+            }}
+          >
+            <QuestionCard image={'../../images/food.png'} title={'Food'} />
+          </Link>
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Yongsan-gu'
+              }
+            }}
+          >
+            <QuestionCard
+              image={'../../images/nightlife.png'}
+              title={'Nightlife'}
+            />
+          </Link>
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Yongsan-gu'
+              }
+            }}
+          >
+            <QuestionCard
+              image={'../../images/shopping.png'}
+              title={'Shopping'}
+            />
+          </Link>
+          <Link
+            to={{
+              pathname: '/questions/payment',
+              state: {
+                district: 'Yongsan-gu'
+              }
+            }}
+          >
+            <QuestionCard image={'../../images/work.png'} title={'Business'} />
           </Link>
         </CardDeck>
       </div>

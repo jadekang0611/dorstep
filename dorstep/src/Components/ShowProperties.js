@@ -1,11 +1,11 @@
 import React from 'react';
 import PropertyCard from '../Widgets/PropertyCard';
-import '../Styles/Question.css';
 import { Link } from 'react-router-dom';
 import { properties } from '../properties';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import '../Styles/ShowProperties.css';
 
 function ShowProperties(props) {
   let results = properties.filter(function(item) {
@@ -27,7 +27,13 @@ function ShowProperties(props) {
         <Row>
           {results.map(property => {
             return (
-              <Col xs={6} md={4} lg={3} key={property.id}>
+              <Col
+                xs={12}
+                md={6}
+                lg={4}
+                key={property.id}
+                className="property-card-col"
+              >
                 <PropertyCard
                   image={property.images[0]}
                   images={property.images}

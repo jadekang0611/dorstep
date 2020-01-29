@@ -5,7 +5,6 @@ import '../../Styles/Question.css';
 import { Link } from 'react-router-dom';
 
 function Payment(props) {
-
   return (
     <div>
       <div>
@@ -18,30 +17,34 @@ function Payment(props) {
         </section>
 
         <CardDeck>
-          <Link to={{
-            pathname: "/questions/properties",
-            state:{
-              district: props.location.state.district,
-              payment: 'Lump-sum'
-            }
-            }}>
+          <Link
+            to={{
+              pathname: '/questions/properties',
+              state: {
+                district: props.location.state.district,
+                payment: 'Up Front'
+              }
+            }}
+          >
             <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Payment One'}
+              image={'../../images/upfront.png'}
+              title={'UP FRONT'}
               description={'This is the payment.'}
             />
           </Link>
 
-          <Link to={{
-            pathname: "/questions/properties",
-            state:{
-              district: props.location.state.district,
-              payment: "Monthly"
-            }
-            }}>
+          <Link
+            to={{
+              pathname: '/questions/properties',
+              state: {
+                district: props.location.state.district,
+                payment: 'Monthly'
+              }
+            }}
+          >
             <QuestionCard
-              image={'https://via.placeholder.com/250'}
-              title={'Payment Two'}
+              image={'../../images/monthly.png'}
+              title={'MONTHLY'}
               description={'This is the payment.'}
             />
           </Link>

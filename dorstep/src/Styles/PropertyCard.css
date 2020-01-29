@@ -1,3 +1,30 @@
 .property-card {
   margin-bottom: 30px;
+  box-shadow: 0 10px 6px -6px darkgrey;
+}
+
+.property-title {
+  text-align: left;
+}
+
+.icon {
+  margin-right: 5px;
+  color: #6610f2;
+}
+
+.pill-row {
+  padding-left: 0;
+}
+.pill-style {
+  background-color: white;
+  padding: 10px 20px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: darkgrey;
+  box-shadow: 0 6px 6px -6px darkgrey;
+}
+.address-row {
+  margin-top: 10px;
+  margin-left: 2px;
+  color: #6c757d;
 }

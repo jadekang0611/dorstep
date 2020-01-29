@@ -1,16 +1,15 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Badge from 'react-bootstrap/Badge';
 
 class QuestionCard extends React.Component {
   render() {
     return (
       <>
-        <Card>
+        <Card style={{ width: '15rem' }} className="cardStyle">
           <Card.Img variant="top" src={this.props.image} />
           <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
-            <Card.Text>{this.props.description}</Card.Text>
-            
+            <Card.Title className="card-title">{this.props.title}</Card.Title>
           </Card.Body>
         </Card>
       </>

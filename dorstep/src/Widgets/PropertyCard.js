@@ -11,7 +11,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Badge from 'react-bootstrap/Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function MydModalWithGrid(props) {
+function PropertyModalScreen(props) {
   console.log('modal: ' + props.image);
   return (
     <Modal
@@ -183,7 +183,7 @@ function PropertyCard(props) {
   console.log(props.image);
   return (
     <>
-      <MydModalWithGrid
+      <PropertyModalScreen
         show={modalShow}
         onHide={() => setModalShow(false)}
         image={props.image}
@@ -197,33 +197,39 @@ function PropertyCard(props) {
         paymentType={props.paymentType}
         aboutTheDistrict={props.aboutTheDistrict}
       />
-      <Card className="property-card">
+      <Card style={{ width: '24rem' }} className="property-card">
         <Card.Img
           variant="top"
           src={props.image}
           onClick={() => setModalShow(true)}
         />
         <Card.Body>
-          <Card.Title>{props.amount}</Card.Title>
+          <Card.Title className="property-title">{props.amount}</Card.Title>
           <Card.Text>{props.paymentType}</Card.Text>
-          <Container>
+          <Container className="pill-row">
             <Row>
               <Col>
-                <FontAwesomeIcon icon="bed" />
-                {props.bed}
+                <Badge pill className="pill-style">
+                  <FontAwesomeIcon icon="bed" className="icon" />
+                  {props.bed}
+                </Badge>
               </Col>
               <Col>
-                <FontAwesomeIcon icon="bath" />
-                {props.bath}
+                <Badge pill className="pill-style">
+                  <FontAwesomeIcon icon="bath" className="icon" />
+                  {props.bath}
+                </Badge>
               </Col>
               <Col>
-                <FontAwesomeIcon icon="vector-square" />
-                {props.size}
+                <Badge pill className="pill-style">
+                  <FontAwesomeIcon icon="vector-square" className="icon" />
+                  {props.size}
+                </Badge>
               </Col>
             </Row>
           </Container>
-          <Row>
-            <FontAwesomeIcon icon="map-marker-alt" />
+          <Row className="address-row">
+            <FontAwesomeIcon icon="map-marker-alt" className="icon" />
             <Card.Text>{props.address}</Card.Text>
           </Row>
         </Card.Body>
