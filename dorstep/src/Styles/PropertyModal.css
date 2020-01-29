@@ -1,0 +1,14 @@
+.carousel-row {
+  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+
+.modal-col {
+}
+
+.w-94{
+    width: 94%!important;
+}
+
+.carousel-control-next{
+    margin-right: 22px;
+}

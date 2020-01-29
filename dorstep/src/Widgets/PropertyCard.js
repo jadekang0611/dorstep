@@ -10,6 +10,7 @@ import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
 import Badge from 'react-bootstrap/Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import '../Styles/PropertyModal.css';
 
 function PropertyModalScreen(props) {
   console.log('modal: ' + props.image);
@@ -25,13 +26,13 @@ function PropertyModalScreen(props) {
         <Container>
           <Row className="show-grid">
             <Col xs={12} md={6}>
-              <Row>
+              <Row className="carousel-row">
                 <Carousel>
                   {props.images.map(image => {
                     return (
                       <Carousel.Item>
                         <img
-                          className="d-block w-100"
+                          className="d-block w-94"
                           src={image}
                           alt="First slide"
                         />
@@ -42,7 +43,7 @@ function PropertyModalScreen(props) {
               </Row>
               <br></br>
               <Row>
-                <Image src="https://via.placeholder.com/500" fluid />
+                <Image className="w-94" src="https://via.placeholder.com/375" fluid/>
               </Row>
               <br></br>
               <Container>
@@ -65,7 +66,7 @@ function PropertyModalScreen(props) {
                 </Row>
               </Container>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="modal-col">
               <Container>
                 <Row>
                   <h2>{props.amount}</h2>
@@ -197,30 +198,33 @@ function PropertyCard(props) {
         paymentType={props.paymentType}
         aboutTheDistrict={props.aboutTheDistrict}
       />
-      <Card style={{ width: '24rem' }} className="property-card">
+      <Card className="property-card">
         <Card.Img
           variant="top"
           src={props.image}
           onClick={() => setModalShow(true)}
         />
         <Card.Body>
-          <Card.Title className="property-title">{props.amount}</Card.Title>
-          <Card.Text>{props.paymentType}</Card.Text>
+          <Card.Title className="property-title">
+            {props.amount}{' '}
+            <span className="paymentType-style">{props.paymentType}</span>
+          </Card.Title>
+
           <Container className="pill-row">
             <Row>
-              <Col>
+              <Col className="pill-col">
                 <Badge pill className="pill-style">
                   <FontAwesomeIcon icon="bed" className="icon" />
                   {props.bed}
                 </Badge>
               </Col>
-              <Col>
+              <Col className="pill-col">
                 <Badge pill className="pill-style">
                   <FontAwesomeIcon icon="bath" className="icon" />
                   {props.bath}
                 </Badge>
               </Col>
-              <Col>
+              <Col className="pill-col">
                 <Badge pill className="pill-style">
                   <FontAwesomeIcon icon="vector-square" className="icon" />
                   {props.size}
@@ -230,7 +234,7 @@ function PropertyCard(props) {
           </Container>
           <Row className="address-row">
             <FontAwesomeIcon icon="map-marker-alt" className="icon" />
-            <Card.Text>{props.address}</Card.Text>
+            <Card.Text className="address-content">{props.address}</Card.Text>
           </Row>
         </Card.Body>
       </Card>
