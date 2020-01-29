@@ -24,7 +24,7 @@
   padding-top: 120px;
 }
 
-button {
+.home-button {
   outline: none;
   padding: 10px 25px 10px 25px;
   font-size: 32px;
@@ -37,7 +37,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.home-button:hover {
   background-color: #5836e5; /* Green */
   color: white;
 }

@@ -26,146 +26,138 @@ function PropertyModalScreen(props) {
         <Container>
           <Row className="show-grid">
             <Col xs={12} md={6}>
-              <Row className="carousel-row">
-                <Carousel>
-                  {props.images.map(image => {
-                    return (
-                      <Carousel.Item>
-                        <img
-                          className="d-block w-94"
-                          src={image}
-                          alt="First slide"
-                        />
-                      </Carousel.Item>
-                    );
-                  })}
-                </Carousel>
-              </Row>
-              <br></br>
-              <Row>
-                <Image className="w-94" src="https://via.placeholder.com/375" fluid/>
-              </Row>
+              <Container>
+                <Row className="carousel-row">
+                  <Carousel>
+                    {props.images.map(image => {
+                      return (
+                        <Carousel.Item>
+                          <img
+                            className="d-block w-100"
+                            src={image}
+                            alt="First slide"
+                          />
+                        </Carousel.Item>
+                      );
+                    })}
+                  </Carousel>
+                </Row>
+              </Container>
               <br></br>
               <Container>
-                <Row>
-                  <h2>Nearby Places</h2>
+                <Row className="content-container-modal">
                   <Container>
                     <Row>
-                      Culpa laborum id ea laboris laboris aliqua labore ut
-                      mollit commodo adipisicing aute fugiat. Veniam culpa
-                      adipisicing proident quis ut consectetur. Esse
-                      exercitation occaecat qui ut cupidatat ullamco. Sunt do
-                      exercitation commodo tempor sit ex. Ullamco dolore sit ad
-                      aliquip ex duis amet dolor sit nisi eiusmod ea laborum
-                      sunt. Id amet est sint ullamco velit non dolore
-                      adipisicing Lorem tempor consequat ut nulla. Velit anim
-                      elit Lorem ut. Irure amet deserunt nisi nisi quis dolore
-                      labore excepteur laboris eiusmod.
+                      <img src="https://via.placeholder.com/350"></img>
                     </Row>
+                  </Container>
+                </Row>
+              </Container>
+              <br></br>
+              <Container>
+                <Row className="content-container-modal">
+                  <h4 className="section-title-modal">Nearby Places</h4>
+                  <Container className="section-content-container">
+                    <hr className="section-title-line"></hr>
+                    <Row>{props.aboutTheDistrict}</Row>
                   </Container>
                 </Row>
               </Container>
             </Col>
             <Col xs={12} md={6} className="modal-col">
               <Container>
-                <Row>
-                  <h2>{props.amount}</h2>
+                <Row className="title-modal">
+                  <h2>
+                    {props.amount}
+                    <span className="paymentType-style-modal">
+                      {props.paymentType}
+                    </span>
+                  </h2>
                 </Row>
               </Container>
-              <Container>
+              <Container className="pill-container-modal">
                 <Row>
                   <Col>
-                    <Badge pill variant="light">
-                      <FontAwesomeIcon icon="tag" />
-                      {props.paymentType}
-                    </Badge>{' '}
-                  </Col>
-                  <Col>
-                    <Badge pill variant="light">
-                      <FontAwesomeIcon icon="bed" />
+                    <Badge pill className="pill-style-modal">
+                      <FontAwesomeIcon icon="bed" className="icon-modal" />
                       {props.bed}
                     </Badge>{' '}
                   </Col>
                   <Col>
-                    <Badge pill variant="light">
-                      <FontAwesomeIcon icon="bath" />
+                    <Badge pill className="pill-style-modal">
+                      <FontAwesomeIcon icon="bath" className="icon-modal" />
                       {props.bath}
                     </Badge>{' '}
                   </Col>
                   <Col>
-                    <Badge pill variant="light">
-                      <FontAwesomeIcon icon="vector-square" />
+                    <Badge pill className="pill-style-modal">
+                      <FontAwesomeIcon
+                        icon="vector-square"
+                        className="icon-modal"
+                      />
                       {props.size}
                     </Badge>{' '}
                   </Col>
                 </Row>
               </Container>
               <Container>
-                <Row>
+                <Row className="address-row-modal">
                   <p>
-                    <FontAwesomeIcon icon="map-marker-alt" />
-                    {props.address}
+                    <FontAwesomeIcon
+                      icon="map-marker-alt"
+                      className="icon-modal"
+                    />
+                    <span className="address-content-modal">
+                      {props.address}
+                    </span>
                   </p>
                 </Row>
               </Container>
 
-              <Button variant="primary" size="lg" block>
-                Contact
-              </Button>
-
-              <hr></hr>
-              <br></br>
               <Container>
-                <Row>
-                  <h2>Description</h2>
-                  <Container>
-                    <Row>
-                      Culpa laborum id ea laboris laboris aliqua labore ut
-                      mollit commodo adipisicing aute fugiat. Veniam culpa
-                      adipisicing proident quis ut consectetur. Esse
-                      exercitation occaecat qui ut cupidatat ullamco. Sunt do
-                      exercitation commodo tempor sit ex. Ullamco dolore sit ad
-                      aliquip ex duis amet dolor sit nisi eiusmod ea laborum
-                      sunt. Id amet est sint ullamco velit non dolore
-                      adipisicing Lorem tempor consequat ut nulla. Velit anim
-                      elit Lorem ut. Irure amet deserunt nisi nisi quis dolore
-                      labore excepteur laboris eiusmod.
-                    </Row>
-                  </Container>
+                <Row className="button-row-modal">
+                  <Button className="contact-button" size="md">
+                    Contact
+                  </Button>
+                  <Button className="request-button" size="md">
+                    Request for tour
+                  </Button>
                 </Row>
               </Container>
 
               <br></br>
               <Container>
-                <Row>
-                  <h2>Features</h2>
-                  <Container>
-                    <Row>
-                      Culpa laborum id ea laboris laboris aliqua labore ut
-                      mollit commodo adipisicing aute fugiat. Veniam culpa
-                      adipisicing proident quis ut consectetur. Esse
-                      exercitation occaecat qui ut cupidatat ullamco. Sunt do
-                      exercitation commodo tempor sit ex. Ullamco dolore sit ad
-                      aliquip ex duis amet dolor sit nisi eiusmod ea laborum
-                      sunt. Id amet est sint ullamco velit non dolore
-                      adipisicing Lorem tempor consequat ut nulla. Velit anim
-                      elit Lorem ut. Irure amet deserunt nisi nisi quis dolore
-                      labore excepteur laboris eiusmod.
-                    </Row>
-                  </Container>
-                </Row>
-              </Container>
-              <br></br>
-              <Container>
-                <Row>
-                  <h2>About the location</h2>
-
-                  <Container>
+                <Row className="content-container-modal">
+                  <h4 className="section-title-modal">Description</h4>
+                  <Container className="section-content-container">
+                    <hr className="section-title-line"></hr>
                     <Row>{props.aboutTheDistrict}</Row>
                   </Container>
                 </Row>
               </Container>
-              <Button variant="primary" size="lg" block>
+
+              <br></br>
+              <Container>
+                <Row className="content-container-modal">
+                  <h4 className="section-title-modal">Features & Facts</h4>
+                  <Container className="section-content-container">
+                    <hr className="section-title-line"></hr>
+                    <Row>{props.aboutTheDistrict}</Row>
+                  </Container>
+                </Row>
+              </Container>
+              <br></br>
+              <Container>
+                <Row className="content-container-modal">
+                  <h4 className="section-title-modal">About the location</h4>
+
+                  <Container className="section-content-container">
+                    <hr className="section-title-line"></hr>
+                    <Row>{props.aboutTheDistrict}</Row>
+                  </Container>
+                </Row>
+              </Container>
+              <Button className="contact-button-lg-modal" size="lg" block>
                 Contact
               </Button>
             </Col>
@@ -173,7 +165,9 @@ function PropertyModalScreen(props) {
         </Container>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button className="close-button-modal" onClick={props.onHide}>
+          Close
+        </Button>
       </Modal.Footer>
     </Modal>
   );
@@ -210,7 +204,7 @@ function PropertyCard(props) {
             <span className="paymentType-style">{props.paymentType}</span>
           </Card.Title>
 
-          <Container className="pill-row">
+          <Container className="pill-container">
             <Row>
               <Col className="pill-col">
                 <Badge pill className="pill-style">

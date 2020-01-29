@@ -32,14 +32,14 @@ function Home() {
         <p className="content-two">We'll get your doorstep to Korea easy!</p>
 
         <Link to="/questions">
-          <button>
+          <button className="home-button">
             <span>Find my place</span>
           </button>
         </Link>
       </div>
       <img className="main-image" src={background} alt="background"></img>
       <footer>
-        <p>&copy; Copyright 2020 dorStep</p>
+        <p>&copy; Copyright 2020 dorStep All rights reserved</p>
       </footer>
     </div>
   );
