@@ -37,6 +37,7 @@ function ShowProperties(props) {
                 <PropertyCard
                   image={property.images[0]}
                   images={property.images}
+                  features={property.features}
                   amount={`\u20A9 ` + property.amount}
                   paymentType={property.paymentType}
                   bed={property.noOfBed}
@@ -45,6 +46,7 @@ function ShowProperties(props) {
                   address={property.district + `, ` + property.city}
                   deposit={property.deposit}
                   aboutTheDistrict={property.about}
+                  description={property.description}
                 />
               </Col>
             );

@@ -11,7 +11,11 @@ import {
   faBath,
   faVectorSquare,
   faMapMarkerAlt,
-  faTag
+  faTag,
+  faSnowflake,
+  faLock,
+  
+
 } from '@fortawesome/free-solid-svg-icons';
 library.add(fab, faBed, faBath, faVectorSquare, faMapMarkerAlt, faTag);
 class App extends React.Component {

@@ -27,7 +27,7 @@ function PropertyModalScreen(props) {
           <Row className="show-grid">
             <Col xs={12} md={6}>
               <Container>
-                <Row className="carousel-row">
+                <Row className="carousel-row content-container-modal">
                   <Carousel>
                     {props.images.map(image => {
                       return (
@@ -59,7 +59,9 @@ function PropertyModalScreen(props) {
                   <h4 className="section-title-modal">Nearby Places</h4>
                   <Container className="section-content-container">
                     <hr className="section-title-line"></hr>
-                    <Row>{props.aboutTheDistrict}</Row>
+                    <Row className="content-modal">
+                      {props.aboutTheDistrict}
+                    </Row>
                   </Container>
                 </Row>
               </Container>
@@ -131,7 +133,7 @@ function PropertyModalScreen(props) {
                   <h4 className="section-title-modal">Description</h4>
                   <Container className="section-content-container">
                     <hr className="section-title-line"></hr>
-                    <Row>{props.aboutTheDistrict}</Row>
+                    <Row className="content-modal">{props.description}</Row>
                   </Container>
                 </Row>
               </Container>
@@ -139,10 +141,19 @@ function PropertyModalScreen(props) {
               <br></br>
               <Container>
                 <Row className="content-container-modal">
-                  <h4 className="section-title-modal">Features & Facts</h4>
+                  <h4 className="section-title-modal">Features</h4>
                   <Container className="section-content-container">
                     <hr className="section-title-line"></hr>
-                    <Row>{props.aboutTheDistrict}</Row>
+                    <Row className="content-modal">
+                      {/* {props.features.map(feature => {
+                        return (
+                          <div>
+                            <img src={feature} />
+                          </div>
+                        );
+                      })}
+                      > */}
+                    </Row>
                   </Container>
                 </Row>
               </Container>
@@ -153,7 +164,9 @@ function PropertyModalScreen(props) {
 
                   <Container className="section-content-container">
                     <hr className="section-title-line"></hr>
-                    <Row>{props.aboutTheDistrict}</Row>
+                    <Row className="content-modal">
+                      {props.aboutTheDistrict}
+                    </Row>
                   </Container>
                 </Row>
               </Container>
@@ -176,6 +189,7 @@ function PropertyModalScreen(props) {
 function PropertyCard(props) {
   const [modalShow, setModalShow] = useState(false);
   console.log(props.image);
+  console.log(props.features);
   return (
     <>
       <PropertyModalScreen
@@ -191,6 +205,8 @@ function PropertyCard(props) {
         deposit={props.deposit}
         paymentType={props.paymentType}
         aboutTheDistrict={props.aboutTheDistrict}
+        description={props.description}
+        features={props.features}
       />
       <Card className="property-card">
         <Card.Img
