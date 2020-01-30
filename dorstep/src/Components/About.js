@@ -1,42 +1,50 @@
 import React from 'react';
-import background from '../background1.svg';
 import '../Styles/Home.css';
-import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function About() {
+  const background = {
+    marginTop: '20px',
+    backgroundColor: '#6610f2',
+    height: '600px',
+    marginLeft: '0px',
+    color: '#ffffff'
+  };
+
+  const contentOne = {
+    paddingTop: '100px',
+    color: '#ffffff',
+    fontSize: '50px'
+  };
+
+  const contentTwo = {
+    paddingTop: '50px',
+    color: '#ffffff',
+    fontSize: '40px',
+    lineHeight: '1.5'
+  };
+
   return (
-    <div className="home-container">
+    <div style={background} className="home-container">
       <Container>
-        <Row className="home-content-row">
-          <h1 className="content-one">ABOUT.</h1>
-          <h1 className="content-one">Discover.</h1>
-          <h1 className="content-one">Live.</h1>
-        </Row>
-        <Container>
+        <Container style={background}>
           <Row>
             <Col>
-              <h2 className="content-two">
-                We'll get your doorstep to Korea easy!
+              <h2 style={contentOne}>Welcome to Dorstep!</h2>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h2 style={contentTwo}>
+                We're happy to find you the next home in Korea that you like!
               </h2>
             </Col>
           </Row>
         </Container>
-        <Container>
-          <Row>
-            <Col>
-              <Link to="/questions">
-                <button className="home-button">
-                  <span>Find my place</span>
-                </button>
-              </Link>
-            </Col>
-          </Row>
-        </Container>
       </Container>
-      <img className="main-image" src={background} alt="background"></img>
+
       <footer className="footer-box">
         <p>&copy; Copyright 2020 Dorstep. All Rights Reserved.</p>
       </footer>
