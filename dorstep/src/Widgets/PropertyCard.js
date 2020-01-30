@@ -11,10 +11,63 @@ import Carousel from 'react-bootstrap/Carousel';
 import Badge from 'react-bootstrap/Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Styles/PropertyModal.css';
+import ReactDOM from 'react-dom';
+import NaverMap, { Overlay } from 'react-naver-map';
+import { faHospital } from '@fortawesome/free-solid-svg-icons';
+let myPlace,
+  mall,
+  bank = '';
+
+  const apiID = process.env.REACT_APP_NAVER_KEY_ID;
+  const apiKey = process.env.REACT_APP_NAVER_KEY;
+
+
+async function naverPlace(lat, lng, query) {
+  var url =
+    'https://naveropenapi.apigw.ntruss.com/map-place/v1/search?query=' +
+    query +
+    '&coordinate=' +
+    lng +
+    ',' +
+    lat +
+    '&X-NCP-APIGW-API-KEY-ID=2cjjmuz99d&X-NCP-APIGW-API-KEY=AdOeRdhVQOCJ7590scFL1bDsQGuUbCCHk8SdYFHP';
+  var request = new Request(url);
+  await fetch(request)
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(place) {
+      if (query === '대학병원') {
+        myPlace = place.places[0].road_address;
+      } else if (query === '은행') {
+        mall = place.places[0].road_address;
+      } else if (query === '쇼핑') {
+        bank = place.places[0].road_address;
+      }
+
+    });
+}
+
+async function geocode(address, place) {
+  let adr = address.split(' ').join('+');
+  var url =
+    'https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode?query=' +
+    adr +
+    '&X-NCP-APIGW-API-KEY-ID=2cjjmuz99d&X-NCP-APIGW-API-KEY=AdOeRdhVQOCJ7590scFL1bDsQGuUbCCHk8SdYFHP';
+  var request = new Request(url);
+  await fetch(request)
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(geocode) {
+      let x = geocode.addresses[0].x;
+      let y = geocode.addresses[0].y;
+
+      naverPlace(y, x, place);
+    });
+}
 
 function PropertyModalScreen(props) {
-  console.log('modal: ' + props.image);
-
   return (
     <Modal
       {...props}
@@ -49,7 +102,14 @@ function PropertyModalScreen(props) {
                 <Row className="content-container-modal">
                   <Container>
                     <Row>
-                      <img src="https://via.placeholder.com/350"></img>
+                      <NaverMap
+                        clientId="2cjjmuz99d"
+                        ncp // 네이버 클라우드 플랫폼 사용여부
+                        style={{ width: '350px', height: '350px' }}
+                        initialPosition={{ lat: 37.5332983, lng: 126.9951957 }}
+                        initialZoom={8}
+                        submodules={['drawing', 'geocoder']}
+                      />
                     </Row>
                   </Container>
                 </Row>
@@ -61,7 +121,11 @@ function PropertyModalScreen(props) {
                   <Container className="section-content-container">
                     <hr className="section-title-line"></hr>
                     <Row className="content-modal">
-                      {props.aboutTheDistrict}
+                      <ul>
+                        <li>Hospital: {myPlace}</li>
+                        <li>Bank: {bank}</li>
+                        <li>Mall: {mall}</li>
+                      </ul>
                     </Row>
                   </Container>
                 </Row>
@@ -191,9 +255,10 @@ function PropertyModalScreen(props) {
 }
 
 function PropertyCard(props) {
+  // if (myPlace != null) {
+  //   hospital = myPlace;
+  // }
   const [modalShow, setModalShow] = useState(false);
-  console.log(props.image);
-  console.log(props.features);
   return (
     <>
       <PropertyModalScreen
@@ -211,6 +276,10 @@ function PropertyCard(props) {
         aboutTheDistrict={props.aboutTheDistrict}
         description={props.description}
         features={props.features}
+        hospital={geocode(props.koreanAddress, '대학병원')}
+        bank={geocode(props.koreanAddress, '은행')}
+        mall={geocode(props.koreanAddress, '쇼핑')}
+        koreanAddress={props.koreanAddress}
       />
       <Card className="property-card">
         <Card.Img

@@ -15,14 +15,10 @@
 }
 
 .nav-item {
-  padding-left: 60px;
   color: #6610f2;
-  font-size: 25px;
-  border: 1px solid white;
-}
+  font-size: 25px;}
 
 .nav-item:hover {
-  padding-left: 60px;
   color: white !important;
   font-size: 25px;
   border: 1px solid #6610f2;
@@ -43,4 +39,8 @@
 .navbar-expand .navbar-nav .nav-link {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+link {
+  
 }

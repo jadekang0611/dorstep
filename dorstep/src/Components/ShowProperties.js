@@ -48,6 +48,7 @@ function ShowProperties(props) {
                   deposit={property.deposit}
                   aboutTheDistrict={property.about}
                   description={property.description}
+                  koreanAddress={property.koreanAddress}
                 />
               </Col>
             );

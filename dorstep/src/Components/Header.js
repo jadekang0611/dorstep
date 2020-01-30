@@ -8,22 +8,25 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg">
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src={logo}
-          width="225"
-          height="125"
-          className="d-inline-block align-top"
-        />{' '}
-      </Navbar.Brand>
+      <Link to="/">
+        <Navbar.Brand>
+          <img
+            alt=""
+            src={logo}
+            width="225"
+            height="125"
+            className="d-inline-block align-top"
+          />{' '}
+        </Navbar.Brand>
+      </Link>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Link to="/about">
-            <Nav.Link className="nav-item">About</Nav.Link>
-          </Link>
-          <Nav.Link className="nav-item">Contact</Nav.Link>
+          <Nav.Link className="nav-item link">
+            <Link to="/about" className="link nav-item">
+              About
+            </Link>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

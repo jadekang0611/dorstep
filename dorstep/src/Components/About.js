@@ -3,6 +3,7 @@ import '../Styles/Home.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Header from './Header';
 
 function About() {
   const background = {
@@ -27,27 +28,33 @@ function About() {
   };
 
   return (
-    <div style={background} className="home-container">
-      <Container>
-        <Container style={background}>
-          <Row>
-            <Col>
-              <h2 style={contentOne}>Welcome to Dorstep!</h2>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <h2 style={contentTwo}>
-                We're happy to find you the next home in Korea that you like!
-              </h2>
-            </Col>
-          </Row>
+    <div>
+      <nav>
+        <Header />
+      </nav>
+      <hr className="nav-line "></hr>
+      <div style={background} className="home-container">
+        <Container>
+          <Container style={background}>
+            <Row>
+              <Col>
+                <h2 style={contentOne}>Welcome to Dorstep!</h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h2 style={contentTwo}>
+                  We're happy to find you the next home in Korea that you like!
+                </h2>
+              </Col>
+            </Row>
+          </Container>
         </Container>
-      </Container>
 
-      <footer className="footer-box">
-        <p>&copy; Copyright 2020 Dorstep. All Rights Reserved.</p>
-      </footer>
+        <footer className="footer-box">
+          <p>&copy; Copyright 2020 Dorstep. All Rights Reserved.</p>
+        </footer>
+      </div>
     </div>
   );
 }
