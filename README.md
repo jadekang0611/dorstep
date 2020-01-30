@@ -1,5 +1,7 @@
 # 👨‍💻 Dorstep
 
+![dorstep-logo](https://user-images.githubusercontent.com/56938630/73431471-5d6bfb80-42f5-11ea-8133-9d6f7e2d2430.gif)
+
 ## Project Description
 
 - There are many foreigners who go to Korea for business, education, or family related reasons.
