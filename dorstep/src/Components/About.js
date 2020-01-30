@@ -6,12 +6,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Home() {
+function About() {
   return (
     <div className="home-container">
       <Container>
         <Row className="home-content-row">
-          <h1 className="content-one">Search.</h1>
+          <h1 className="content-one">ABOUT.</h1>
           <h1 className="content-one">Discover.</h1>
           <h1 className="content-one">Live.</h1>
         </Row>
@@ -44,4 +44,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

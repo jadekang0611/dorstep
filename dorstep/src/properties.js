@@ -3,20 +3,22 @@ export const properties = [
            id: 1,
            district: 'Gangseo-gu',
            city: 'Banghwa-dong',
-    koreanAddress: '서울특별시 강서구 방화동',
+           koreanAddress: '서울특별시 강서구 방화동',
            images: [
              '../images/1a.png',
              '../images/1.b.png',
              '../images/1.c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
-    features: [
-      '../images/heater-or.png',
-      '../images/air-bl.png',
-      '../images/dresser-bl.png',
-      '../images/microwave-og.png',
-      '../images/fridge-og.png'
-    ],     
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -39,14 +41,16 @@ export const properties = [
              '../images/2d.png',
              '../images/2e.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -68,14 +72,16 @@ export const properties = [
              '../images/3c.png',
              '../images/3d.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-            ],          
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -98,14 +104,16 @@ export const properties = [
              '../images/4d.png',
              '../images/4f.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 3,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -127,14 +135,16 @@ export const properties = [
              '../images/5c.png',
              '../images/5d.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -159,14 +169,16 @@ export const properties = [
              '../images/6g.png',
              '../images/6h.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 3,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -190,14 +202,16 @@ export const properties = [
              '../images/7e.png',
              '../images/7f.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -219,14 +233,16 @@ export const properties = [
              '../images/8c.png',
              '../images/8d.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -248,14 +264,16 @@ export const properties = [
              '../images/9c.png',
              '../images/9d.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            features: [
              '../images/heater-or.png',
              '../images/air-bl.png',
              '../images/dresser-bl.png',
              '../images/microwave-og.png',
-             '../images/fridge-og.png'
-           ],     
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -267,6 +285,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 10,
            district: 'Gangseo-gu',
            city: 'Banghwa-dong',
@@ -279,7 +305,8 @@ export const properties = [
              '../images/10e.png',
              '../images/10f.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -290,7 +317,16 @@ export const properties = [
            about:
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
+
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 11,
            district: 'Gangseo-gu',
            city: 'Banghwa-dong',
@@ -300,7 +336,8 @@ export const properties = [
              '../images/11b.png',
              '../images/11c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 3,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -312,6 +349,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 12,
            district: 'Gangseo-gu',
            city: 'Banghwa-dong',
@@ -323,7 +368,8 @@ export const properties = [
              '../images/12d.png',
              '../images/12e.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -335,6 +381,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 13,
            district: 'Gangseo-gu',
            city: 'Banghwa-dong',
@@ -346,7 +400,8 @@ export const properties = [
              '../images/13d.png',
              '../images/13e.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -358,6 +413,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 14,
            district: 'Gangseo-gu',
            city: 'Gayang-dong',
@@ -369,7 +432,8 @@ export const properties = [
              '../images/14d.png',
              '../images/14e.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -381,6 +445,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 15,
            district: 'Yangcheon-gu',
            city: 'Mokdong',
@@ -390,7 +462,8 @@ export const properties = [
              '../images/15b.png',
              '../images/15c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -400,6 +473,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 16,
            district: 'Yangcheon-gu',
            city: 'Mokdong',
@@ -409,7 +490,8 @@ export const properties = [
              '../images/16b.png',
              '../images/16c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -419,6 +501,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 17,
            district: 'Yangcheon-gu',
            city: 'Mokdong',
@@ -428,7 +518,8 @@ export const properties = [
              '../images/17b.png',
              '../images/17c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -438,6 +529,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 18,
            district: 'Yangcheon-gu',
            city: 'Mokdong',
@@ -447,7 +546,8 @@ export const properties = [
              '../images/18b.png',
              '../images/18c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -457,6 +557,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 19,
            district: 'Yangcheon-gu',
            city: 'Mokdong',
@@ -466,7 +574,8 @@ export const properties = [
              '../images/19b.png',
              '../images/19c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -476,6 +585,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 20,
            district: 'Yeongdeungpo-gu',
            city: 'Yeouido',
@@ -485,7 +602,8 @@ export const properties = [
              '../images/20b.png',
              '../images/20c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -495,6 +613,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 21,
            district: 'Yeongdeungpo-gu',
            city: 'Yeouido',
@@ -504,7 +630,8 @@ export const properties = [
              '../images/21b.png',
              '../images/21c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -514,6 +641,14 @@ export const properties = [
            lifestyle: 'party'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 22,
            district: 'Gangseo-gu',
            city: 'Deungchon-dong',
@@ -523,7 +658,8 @@ export const properties = [
              '../images/22b.png',
              '../images/22c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -535,6 +671,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 23,
            district: 'Gangseo-gu',
            city: 'Deungchon-dong',
@@ -544,7 +688,8 @@ export const properties = [
              '../images/23b.png',
              '../images/23c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -556,6 +701,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 24,
            district: 'Gangseo-gu',
            city: 'Deungchon-dong',
@@ -565,7 +718,8 @@ export const properties = [
              '../images/24b.png',
              '../images/24c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -577,6 +731,14 @@ export const properties = [
              'Gangseo District is one of the 25 wards of Seoul, South Korea. It is located on the south side of the Han River. Gimpo Airport is in Gonghang-dong, where many flights fly to cities like Busan, Jeju, and Gwangju.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 25,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -586,7 +748,8 @@ export const properties = [
              '../images/25b.png',
              '../images/25c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -598,6 +761,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 26,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -607,7 +778,8 @@ export const properties = [
              '../images/26b.png',
              '../images/26c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -619,6 +791,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 27,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -628,7 +808,8 @@ export const properties = [
              '../images/27b.png',
              '../images/27c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -640,6 +821,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 28,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -649,7 +838,8 @@ export const properties = [
              '../images/28b.png',
              '../images/28c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -661,6 +851,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 29,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -670,7 +868,8 @@ export const properties = [
              '../images/29b.png',
              '../images/29c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -682,6 +881,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 30,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -691,7 +898,8 @@ export const properties = [
              '../images/30b.png',
              '../images/30c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -703,6 +911,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 31,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -712,7 +928,8 @@ export const properties = [
              '../images/31b.png',
              '../images/31c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -724,6 +941,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 32,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -733,7 +958,8 @@ export const properties = [
              '../images/32b.png',
              '../images/32c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 2,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -745,6 +971,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 33,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -754,7 +988,8 @@ export const properties = [
              '../images/33b.png',
              '../images/33c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -766,6 +1001,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 34,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -775,7 +1018,8 @@ export const properties = [
              '../images/34b.png',
              '../images/34c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -787,6 +1031,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 35,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -796,7 +1048,8 @@ export const properties = [
              '../images/35b.png',
              '../images/35c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -808,6 +1061,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 36,
            district: 'Gangnam-gu',
            city: 'Yeoksam-dong',
@@ -817,7 +1078,8 @@ export const properties = [
              '../images/36b.png',
              '../images/36c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -829,6 +1091,14 @@ export const properties = [
              'Gangnam-gu is Seoul’s upscale, modern center, home to gleaming skyscrapers, designer brands and stylish nightclubs where big-name DJs spin techno and house. Dining options span high-end restaurants to bars serving fried chicken and soju rice wine.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 37,
            district: 'Mapo-gu',
            city: 'Seogyo-dong',
@@ -838,7 +1108,8 @@ export const properties = [
              '../images/37b.png',
              '../images/37c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -850,6 +1121,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 38,
            district: 'Mapo-gu',
            city: 'Seogyo-dong',
@@ -859,7 +1138,8 @@ export const properties = [
              '../images/38b.png',
              '../images/38c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -871,6 +1151,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 39,
            district: 'Mapo-gu',
            city: 'Dohwa-dong',
@@ -880,7 +1168,8 @@ export const properties = [
              '../images/39b.png',
              '../images/39c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -892,6 +1181,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 40,
            district: 'Mapo-gu',
            city: 'Gongdeok-dong',
@@ -901,7 +1198,8 @@ export const properties = [
              '../images/40b.png',
              '../images/40c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -913,12 +1211,21 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 41,
            district: 'Mapo-gu',
            city: 'Dohwa-dong',
            koreanAddress: '서울시 마포구 도화동 36',
            images: ['../images/41a.png'],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -930,12 +1237,21 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 42,
            district: 'Mapo-gu',
            city: 'Dohwa-dong',
            koreanAddress: '서울시 마포구 도화동 36',
            images: ['../images/42a.png', '../images/42b.png'],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -947,12 +1263,21 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 43,
            district: 'Mapo-gu',
            city: 'Mapo-dong',
            koreanAddress: '서울시 마포구 마포동 350',
            images: ['../images/43a.png', '../images/43b.png'],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -964,6 +1289,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 44,
            district: 'Mapo-gu',
            city: 'Dohwa-dong',
@@ -973,7 +1306,8 @@ export const properties = [
              '../images/44b.png',
              '../images/44c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -985,6 +1319,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 45,
            district: 'Mapo-gu',
            city: 'Sangsoo-dong',
@@ -994,7 +1336,8 @@ export const properties = [
              '../images/45b.png',
              '../images/45c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1006,6 +1349,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 46,
            district: 'Mapo-gu',
            city: 'Sangsoo-dong',
@@ -1015,7 +1366,8 @@ export const properties = [
              '../images/46b.png',
              '../images/46c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1027,6 +1379,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 47,
            district: 'Mapo-gu',
            city: 'Sangsoo-dong',
@@ -1036,7 +1396,8 @@ export const properties = [
              '../images/47b.png',
              '../images/47c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1048,12 +1409,21 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 48,
            district: 'Mapo-gu',
            city: 'Sangsoo-dong',
            koreanAddress: '서울시 마포구 상수동 141-1',
            images: ['../images/48a.png', '../images/48b.png'],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1065,6 +1435,14 @@ export const properties = [
              'Mapo-gu owes its hip vibe to the student areas of Hongdae and Sinchon-ro, with quirky boutiques and jewelry shops, plus late-night restaurants serving BBQ and fried chicken with beer. Relaxed rooftop bars overlook hangout spot Hongik Park, while jazz bars and live music venues in the area have an offbeat feel.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 49,
            district: 'Yongsan-gu',
            city: 'Hangang-ro',
@@ -1074,7 +1452,8 @@ export const properties = [
              '../images/49b.png',
              '../images/49c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1086,6 +1465,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 50,
            district: 'Yongsan-gu',
            city: 'Hangang-ro',
@@ -1095,7 +1482,8 @@ export const properties = [
              '../images/50b.png',
              '../images/50c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1107,6 +1495,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 51,
            district: 'Yongsan-gu',
            city: 'Hangang-ro',
@@ -1116,7 +1512,8 @@ export const properties = [
              '../images/51b.png',
              '../images/51c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1128,6 +1525,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 52,
            district: 'Yongsan-gu',
            city: 'Hangang-ro',
@@ -1137,7 +1542,8 @@ export const properties = [
              '../images/50b.png',
              '../images/50c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1149,6 +1555,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 53,
            district: 'Yongsan-gu',
            city: 'Hangang-ro',
@@ -1158,7 +1572,8 @@ export const properties = [
              '../images/50b.png',
              '../images/50c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1170,6 +1585,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 54,
            district: 'Yongsan-gu',
            city: 'Hangang-ro',
@@ -1179,7 +1602,8 @@ export const properties = [
              '../images/54b.png',
              '../images/54c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 0,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1191,6 +1615,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 55,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1200,7 +1632,8 @@ export const properties = [
              '../images/55b.png',
              '../images/55c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1.5,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1212,6 +1645,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 56,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1221,7 +1662,8 @@ export const properties = [
              '../images/56b.png',
              '../images/56c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 3,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -1233,6 +1675,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 57,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1242,7 +1692,8 @@ export const properties = [
              '../images/57b.png',
              '../images/57c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -1254,6 +1705,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 58,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1263,7 +1722,8 @@ export const properties = [
              '../images/58b.png',
              '../images/58c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1275,6 +1735,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 59,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1284,7 +1752,8 @@ export const properties = [
              '../images/59b.png',
              '../images/59c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1296,6 +1765,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 60,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1305,7 +1782,8 @@ export const properties = [
              '../images/60b.png',
              '../images/60c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 3,
            noOfBath: 1,
            paymentType: 'Monthly',
@@ -1317,6 +1795,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 61,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1326,7 +1812,8 @@ export const properties = [
              '../images/61b.png',
              '../images/61c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 3,
            noOfBath: 1,
            paymentType: 'Up Front',
@@ -1338,6 +1825,14 @@ export const properties = [
              'Known for its cosmopolitan dining and nightlife, with Korean BBQ restaurants, and upscale bistros, as well as low-key kebab shops catering to a late-night crowd. Casual beer bars and gay pubs sit alongside hip dance clubs where DJs spin hip-hop and house.'
          },
          {
+           features: [
+             '../images/heater-or.png',
+             '../images/air-bl.png',
+             '../images/dresser-bl.png',
+             '../images/microwave-og.png',
+             '../images/fridge-og.png',
+             '../images/parking-bl.png'
+           ],
            id: 62,
            district: 'Yongsan-gu',
            city: 'Itaewon-dong',
@@ -1347,7 +1842,8 @@ export const properties = [
              '../images/62b.png',
              '../images/62c.png'
            ],
-           description: 'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
+           description:
+             'The actual usage size is approximately 6 phyeong which includes 1 room and 1 bathroom. You are welcomed to move in right now!',
            noOfBed: 1,
            noOfBath: 1,
            paymentType: 'Monthly',

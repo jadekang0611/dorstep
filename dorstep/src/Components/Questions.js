@@ -10,16 +10,9 @@ import { Route, Link, Switch } from 'react-router-dom';
 function Questions(props) {
   return (
     <div>
-      <header>
-        <div className="brand">
-          <img src={logo} alt="dorstep logo"></img>
-          <h1>dorstep</h1>
-        </div>
-      </header>
-      <hr></hr>
       <Router>
         <Route exact path="/questions/" component={Cities}></Route>
-        <Route exact path="/questions/payment" component={Payment}></Route>
+        <Route path="/questions/payment" component={Payment}></Route>
         <Route
           exact
           path="/questions/properties"
@@ -27,8 +20,8 @@ function Questions(props) {
         ></Route>
       </Router>
 
-      <footer className="footer">
-        <div></div>
+      <footer className="footer-box-questions">
+        <p>&copy; Copyright 2020 Dorstep. All Rights Reserved.</p>
       </footer>
     </div>
   );

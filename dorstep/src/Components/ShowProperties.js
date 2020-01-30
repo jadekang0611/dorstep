@@ -20,9 +20,10 @@ function ShowProperties(props) {
 
   return (
     <div>
-      <section className="section">
-        <h1 className="question-main">Select properties you like!</h1>
-      </section>
+      <Container className="show-titles">
+        <h1 className="question-main">Rental Listing</h1>
+        <h4 className="result-title">{results.length} results</h4>
+      </Container>
       <Container>
         <Row>
           {results.map(property => {

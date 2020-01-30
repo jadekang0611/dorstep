@@ -1,8 +1,9 @@
 import React from 'react';
 import '../Styles/Header.css';
-import logo from '../dorstep-logo.svg';
+import logo from '../dorstep-logo.gif';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -11,24 +12,18 @@ function Header() {
         <img
           alt=""
           src={logo}
-          width="60"
-          height="60"
+          width="225"
+          height="125"
           className="d-inline-block align-top"
         />{' '}
       </Navbar.Brand>
-      <h1 className="brand">dorStep</h1>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link className="nav-item" href="#home">
-            About
-          </Nav.Link>
-          <Nav.Link className="nav-item" href="#features">
-            How it works
-          </Nav.Link>
-          <Nav.Link className="nav-item" href="#pricing">
-            Contact
-          </Nav.Link>
+          <Link to="/about">
+            <Nav.Link className="nav-item">About</Nav.Link>
+          </Link>
+          <Nav.Link className="nav-item">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -14,7 +14,7 @@ import {
   faTag,
   faSnowflake,
   faLock,
-  
+
 
 } from '@fortawesome/free-solid-svg-icons';
 library.add(fab, faBed, faBath, faVectorSquare, faMapMarkerAlt, faTag);
@@ -28,8 +28,8 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Main} />
-          <Route path="/questions" component={Questions} />
+          <Route path="/" component={Main} />
+
         </div>
       </Router>
     );

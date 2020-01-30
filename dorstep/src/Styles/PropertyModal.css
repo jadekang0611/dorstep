@@ -177,3 +177,15 @@
 .content-modal {
   color: #6c757d;
 }
+
+.feature-content-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.feature-icon {
+  border-radius: 1.25rem;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}

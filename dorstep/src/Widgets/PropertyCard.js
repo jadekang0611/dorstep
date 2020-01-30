@@ -14,6 +14,7 @@ import '../Styles/PropertyModal.css';
 
 function PropertyModalScreen(props) {
   console.log('modal: ' + props.image);
+
   return (
     <Modal
       {...props}
@@ -144,15 +145,18 @@ function PropertyModalScreen(props) {
                   <h4 className="section-title-modal">Features</h4>
                   <Container className="section-content-container">
                     <hr className="section-title-line"></hr>
-                    <Row className="content-modal">
-                      {/* {props.features.map(feature => {
+                    <Row className="content-modal feature-content-box">
+                      {props.features.map(feature => {
                         return (
-                          <div>
-                            <img src={feature} />
+                          <div className="feature-icon-box">
+                            <img
+                              className="feature-icon"
+                              src={feature}
+                              alt="feature"
+                            />
                           </div>
                         );
                       })}
-                      > */}
                     </Row>
                   </Container>
                 </Row>
