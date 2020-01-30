@@ -6,21 +6,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../Styles/PropertyCard.css';
-import Image from 'react-bootstrap/Image';
 import Carousel from 'react-bootstrap/Carousel';
 import Badge from 'react-bootstrap/Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Styles/PropertyModal.css';
-import ReactDOM from 'react-dom';
 import NaverMap, { Overlay } from 'react-naver-map';
-import { faHospital } from '@fortawesome/free-solid-svg-icons';
+
 let myPlace,
   mall,
   bank = '';
-
-  const apiID = process.env.REACT_APP_NAVER_KEY_ID;
-  const apiKey = process.env.REACT_APP_NAVER_KEY;
-
 
 async function naverPlace(lat, lng, query) {
   var url =
@@ -44,7 +38,6 @@ async function naverPlace(lat, lng, query) {
       } else if (query === '쇼핑') {
         bank = place.places[0].road_address;
       }
-
     });
 }
 

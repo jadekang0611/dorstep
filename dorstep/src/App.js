@@ -2,7 +2,7 @@ import React from 'react';
 import Questions from './Components/Questions';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Route, Link, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import Main from './Components/Main';
 import About from './Components/About';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -13,8 +13,7 @@ import {
   faVectorSquare,
   faMapMarkerAlt,
   faTag,
-  faSnowflake,
-  faLock
+  
 } from '@fortawesome/free-solid-svg-icons';
 library.add(fab, faBed, faBath, faVectorSquare, faMapMarkerAlt, faTag);
 

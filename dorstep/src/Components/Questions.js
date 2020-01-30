@@ -5,7 +5,7 @@ import Cities from '../Components/Questions/Cities';
 import Payment from '../Components/Questions/Payment';
 import ShowProperties from '../Components/ShowProperties';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Route, Link, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function Questions(props) {
   const image = {

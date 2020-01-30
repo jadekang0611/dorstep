@@ -1,6 +1,5 @@
 import React from 'react';
 import PropertyCard from '../Widgets/PropertyCard';
-import { Link } from 'react-router-dom';
 import { properties } from '../properties';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
