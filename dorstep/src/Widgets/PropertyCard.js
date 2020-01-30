@@ -10,7 +10,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Badge from 'react-bootstrap/Badge';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../Styles/PropertyModal.css';
-import NaverMap, { Overlay } from 'react-naver-map';
+import NaverMap from 'react-naver-map';
 
 let myPlace,
   mall,
@@ -24,7 +24,7 @@ async function naverPlace(lat, lng, query) {
     lng +
     ',' +
     lat +
-    '&X-NCP-APIGW-API-KEY-ID=2cjjmuz99d&X-NCP-APIGW-API-KEY=AdOeRdhVQOCJ7590scFL1bDsQGuUbCCHk8SdYFHP';
+    `&X-NCP-APIGW-API-KEY-ID=${process.env.REACT_APP_API_KEY_ID}&X-NCP-APIGW-API-KEY=${process.env.REACT_APP_API_KEY}`;
   var request = new Request(url);
   await fetch(request)
     .then(function(response) {
@@ -38,7 +38,8 @@ async function naverPlace(lat, lng, query) {
       } else if (query === '쇼핑') {
         bank = place.places[0].road_address;
       }
-    });
+    })
+    .catch(console.error);
 }
 
 async function geocode(address, place) {
@@ -57,7 +58,8 @@ async function geocode(address, place) {
       let y = geocode.addresses[0].y;
 
       naverPlace(y, x, place);
-    });
+    })
+    .catch(console.error);
 }
 
 function PropertyModalScreen(props) {
