@@ -1,6 +1,4 @@
-# dorstep
-
-# 👨‍💻 DorStep
+# 👨‍💻 Dorstep
 
 ## Project Description
 
